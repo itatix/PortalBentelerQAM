@@ -1,0 +1,50 @@
+
+.ext-ie .x-row-editor .x-form-text {
+    margin: 0 !important;
+}
+.x-row-editor-header {
+    background: transparent url("../img/row-editor-bg.gif") repeat-x scroll 0 0;
+    height: 2px;
+    overflow: hidden;
+}
+.x-row-editor-footer {
+    background: transparent url("../img/row-editor-bg.gif") repeat-x scroll 0 -2px;
+    height: 2px;
+    overflow: hidden;
+}
+.ext-ie .x-row-editor-footer {
+    margin-top: -1px;
+}
+.x-row-editor-body {
+    background: #ebf2fb none repeat scroll 0 0;
+    overflow: hidden;
+    padding-top: 2px;
+}
+.x-row-editor .x-btns {
+    background: transparent url("../img/row-editor-btns.gif") no-repeat scroll 0 0;
+    left: 20px;
+    padding-left: 5px;
+    position: absolute;
+    top: 28px;
+}
+.x-row-editor .x-btns .x-plain-bwrap {
+    background: transparent url("../img/row-editor-btns.gif") no-repeat scroll right -31px;
+    padding-right: 5px;
+}
+.x-row-editor .x-btns .x-plain-body {
+    background: transparent url("../img/row-editor-btns.gif") repeat-x scroll 0 -62px;
+    height: 31px;
+}
+.x-row-editor .x-btns .x-table-layout-cell {
+    padding: 3px;
+}
+.ext-ie6 .x-row-editor .x-form-field-wrap .x-form-trigger, .ext-ie7 .x-row-editor .x-form-field-wrap .x-form-trigger {
+    top: 1px;
+}
+.ext-ie6 .x-row-editor .x-form-field-trigger-wrap, .ext-ie7 .x-row-editor .x-form-field-trigger-wrap {
+    margin-top: -1px;
+}
+.errorTip .x-tip-body ul {
+    list-style-type: disc;
+    margin-left: 15px;
+}
